@@ -32,7 +32,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 1rem 9%;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -50,6 +50,11 @@ body {
     font-size: 2.5rem;
     color: var(--text-color) ;
     font-weight: 600;
+}
+header img {
+    width: 40px;
+    padding-top: 1rem;
+
 }
 
 .navbar {
@@ -280,7 +285,7 @@ section {
 
 .home-imgHover:hover {
     background: var(--bg-color);
-    opacity: .8;
+    opacity: .3;
 }
 
 .about {
